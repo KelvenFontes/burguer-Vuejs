@@ -15,11 +15,20 @@
             setTimeout(()=>{
                 this.nome = 'eu seiiiiiiiiiiiiiiiiiiiiiiiiiiii'
             }, 1000);
+            
+            this.lifeCycle()
         },
         mounted() {
             setTimeout(()=>{
                 this.nome = 'pedro será ?'
             }, 2000);
+
+            this.lifeCycle()
+        },
+        methods: {
+            lifeCycle(){
+                console.log('ufassss')
+            }
         }
     }
 
