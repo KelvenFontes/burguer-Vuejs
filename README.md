@@ -1,2 +1,19 @@
-# burguer-Vuejs
-Uma página web para hamburgueria, onde a pessoa pode montar o hamburguer como ela quer e no fim envia o pedido para o restaurante.
+# burguer-vuejs
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
